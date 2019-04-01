@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MobilePay.MerchantFeesCalculator.TestApp": {
+      "commandName": "Project",
+      "commandLineArgs": "Data\\transactions.txt"
+    }
+  }
+}

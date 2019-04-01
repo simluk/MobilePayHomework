@@ -1,0 +1,6 @@
+*.dll
+obj
+*.pdb
+bin
+obj
+vs

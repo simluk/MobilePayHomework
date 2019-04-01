@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobilePay.MerchantFeesCalculator.TestApp", "MobilePay.MerchantFeesCalculator.TestApp\MobilePay.MerchantFeesCalculator.TestApp.csproj", "{466EA305-12A6-46FF-AC72-7FD56D6964D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobilePay.MerchantFeesCalculator.UnitTests", "MobilePay.MerchantFeesCalculator.UnitTests\MobilePay.MerchantFeesCalculator.UnitTests.csproj", "{8424DCC0-8A66-4E7E-B78F-F1AC7707D9EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobilePay.MerchantFeesCalculator.Api", "MobilePay.MerchantFeesCalculator.Api\MobilePay.MerchantFeesCalculator.Api.csproj", "{EFE7BEC5-1802-46B6-ABDA-C9C3C1943D0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobilePay.MerchantFeesCalculator.BasicImplementation", "MobilePay.MerchantFeesCalculator.BasicImplementation\MobilePay.MerchantFeesCalculator.BasicImplementation.csproj", "{EF1B01E6-1420-4BCA-898C-88A3E338B17B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobilePay.MerchantFeesCalculator.IntegrationTests", "MobilePay.MerchantFeesCalculator.IntegrationTests\MobilePay.MerchantFeesCalculator.IntegrationTests.csproj", "{ADF4EB90-B9A9-49A8-87BC-9F254556615A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePay.MerchantFeesCalculator.AcceptanceTests", "MobilePay.MerchantFeesCalculator.AcceptanceTests\MobilePay.MerchantFeesCalculator.AcceptanceTests.csproj", "{C04DC4A2-CE2B-4A7B-A8E1-48BC02C9916C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{466EA305-12A6-46FF-AC72-7FD56D6964D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466EA305-12A6-46FF-AC72-7FD56D6964D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466EA305-12A6-46FF-AC72-7FD56D6964D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466EA305-12A6-46FF-AC72-7FD56D6964D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8424DCC0-8A66-4E7E-B78F-F1AC7707D9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8424DCC0-8A66-4E7E-B78F-F1AC7707D9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8424DCC0-8A66-4E7E-B78F-F1AC7707D9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8424DCC0-8A66-4E7E-B78F-F1AC7707D9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE7BEC5-1802-46B6-ABDA-C9C3C1943D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE7BEC5-1802-46B6-ABDA-C9C3C1943D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE7BEC5-1802-46B6-ABDA-C9C3C1943D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE7BEC5-1802-46B6-ABDA-C9C3C1943D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1B01E6-1420-4BCA-898C-88A3E338B17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1B01E6-1420-4BCA-898C-88A3E338B17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1B01E6-1420-4BCA-898C-88A3E338B17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1B01E6-1420-4BCA-898C-88A3E338B17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF4EB90-B9A9-49A8-87BC-9F254556615A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF4EB90-B9A9-49A8-87BC-9F254556615A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF4EB90-B9A9-49A8-87BC-9F254556615A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF4EB90-B9A9-49A8-87BC-9F254556615A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04DC4A2-CE2B-4A7B-A8E1-48BC02C9916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04DC4A2-CE2B-4A7B-A8E1-48BC02C9916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04DC4A2-CE2B-4A7B-A8E1-48BC02C9916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04DC4A2-CE2B-4A7B-A8E1-48BC02C9916C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE649BB2-D143-4A14-BFFD-4EB02D37775B}
+	EndGlobalSection
+EndGlobal
