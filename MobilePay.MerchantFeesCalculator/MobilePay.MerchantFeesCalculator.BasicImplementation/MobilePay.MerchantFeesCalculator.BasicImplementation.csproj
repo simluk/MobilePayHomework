@@ -8,4 +8,8 @@
     <ProjectReference Include="..\MobilePay.MerchantFeesCalculator.Api\MobilePay.MerchantFeesCalculator.Api.csproj" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy $(TargetDir)$(TargetName).dll $(SolutionDir)MobilePay.MerchantFeesCalculator.TestApp\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;xcopy $(TargetDir)$(TargetName).pdb $(SolutionDir)MobilePay.MerchantFeesCalculator.TestApp\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;&#xD;&#xA;xcopy $(TargetDir)$(TargetName).dll $(SolutionDir)MobilePay.MerchantFeesCalculator.UnitTests\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;xcopy $(TargetDir)$(TargetName).pdb $(SolutionDir)MobilePay.MerchantFeesCalculator.UnitTests\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;&#xD;&#xA;xcopy $(TargetDir)$(TargetName).dll $(SolutionDir)MobilePay.MerchantFeesCalculator.AcceptanceTests\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;xcopy $(TargetDir)$(TargetName).pdb $(SolutionDir)MobilePay.MerchantFeesCalculator.AcceptanceTests\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;&#xD;&#xA;xcopy $(TargetDir)$(TargetName).dll $(SolutionDir)MobilePay.MerchantFeesCalculator.IntegrationTests\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;xcopy $(TargetDir)$(TargetName).pdb $(SolutionDir)MobilePay.MerchantFeesCalculator.IntegrationTests\bin\Debug\netcoreapp2.1\ /i /y&#xD;&#xA;&#xD;&#xA;" />
+  </Target>
+
 </Project>

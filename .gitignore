@@ -4,3 +4,8 @@ obj
 bin
 obj
 vs
+*.suo
+*.ide
+*.ide-shm
+*.ide-wal
+*.lock

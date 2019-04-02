@@ -68,7 +68,7 @@ namespace MobilePay.MerchantFeesCalculator.IntegrationTests
 
             var source = factory.CreateTextBasedTransactionSource(transactionFilePath);
             var sourceFormat = factory.CreateTransactionInputFormat();
-            var feeCalculator = factory.CreateTransactionFeeCalculator();
+            var feeCalculator = factory.CreateTransactionFeeCalculator(29);
             var outputFormatter = factory.CreateOutputFormatter();
 
             context.ApplyDiscount("TELIA", factory.CreatePercentageDiscount(10));
