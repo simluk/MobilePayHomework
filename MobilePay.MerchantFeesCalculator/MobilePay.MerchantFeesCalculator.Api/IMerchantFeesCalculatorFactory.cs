@@ -4,6 +4,9 @@ using System.Text;
 
 namespace MobilePay.MerchantFeesCalculator.Api
 {
+    /// <summary>
+    /// Entry point factory interface to create key application objects
+    /// </summary>
     public interface IMerchantFeesCalculatorFactory
     {
         ITransactionSource CreateTextBasedTransactionSource(string filePath);

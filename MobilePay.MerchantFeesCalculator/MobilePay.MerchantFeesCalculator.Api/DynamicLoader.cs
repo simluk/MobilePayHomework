@@ -8,6 +8,9 @@ using MobilePay.MerchantFeesCalculator.Api;
 
 namespace MobilePay.MerchantFeesCalculator.Api
 {
+    /// <summary>
+    /// Helper class to dynamically load objects from specified assembly
+    /// </summary>
     public static class DynamicLoader
     {
         public static TModuleType LoadModuleType<TModuleType>(string assemblyName) where TModuleType : class
